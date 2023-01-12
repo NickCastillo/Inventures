@@ -1,0 +1,61 @@
+.list-container {
+    background-color: #F5F5F5;
+    padding: 0px;
+    color:black;
+    text-align: left;
+  }
+
+.list-container .title-container{
+    padding: 10px;
+  }
+  
+  
+.scroll {
+    overflow: auto;
+    height: 67vh;    
+}
+
+  
+.list-container p {
+    margin: 0px;
+    font-family: poppinsBold;
+  }
+  
+.list-element {
+    padding: 10px 0px;
+    margin: 0px 0px 5px 0px;
+    background-color: #ffffff;
+  }
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    vertical-align: center;
+  }
+  
+.img-container img {
+    height: auto;
+    width: 62.66px;
+    flex-shrink: 0;
+  }
+  
+.list-element .maintext{
+    font-size: 15px;
+    font-family: poppinsBold;
+  }
+  
+.list-element .subtext{
+    font-size: 13px;
+    font-family: poppinsLight;
+  }
+  
+.blue {
+    color: #0277BD
+  }
+  
+.list-element .cart-icon {
+    font-size: 20px;
+    text-align: center;
+  }

@@ -1,0 +1,25 @@
+.navbar-container{
+    background-color: #0277BD;
+    color: white;
+    height: 64px;
+  }
+  
+.navbar-container h1 {
+    text-align: left;
+    font-size: 19px;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+
+.navbar-icon-style{
+    font-size: 20px;
+    margin: 0px 10px;
+  }
+
+  .icon-container {
+    padding: 20px;
+    height: 64px;
+  }
+  
+  
+  
