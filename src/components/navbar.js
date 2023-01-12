@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FaList, FaSearch } from 'react-icons/fa';
-import { BsCart, BsCartFill, BsCartPlus } from 'react-icons/bs';
+import { BsCart, BsCartFill } from 'react-icons/bs';
 
 function NavbarComponent() {
 
@@ -11,7 +11,7 @@ function NavbarComponent() {
 
     const handleClick = (prop) => {
         console.log(`${prop} button clicked!`)
-        if (prop == 'Cart') {
+        if (prop === 'Cart') {
             setCartActive((prev) => !prev);
         }
     }
